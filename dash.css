@@ -1,0 +1,360 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+
+
+/*my css for the login form*/
+
+div {
+    display: block;
+}
+
+h1 {
+  display: block;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  display: block;
+
+
+  font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+   background: #fff url(images/bg.jpg) repeat top left;
+  font-weight: 400;
+  font-size: 15px;
+  color: #1d3c41;
+ /* overflow-y: scroll;*/
+
+}
+#error {
+  font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  line-height: 35px;
+  position: relative;
+  font-weight: 400;
+/*  color: rgba(26,89,120,0.9);*/
+  color: red;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    padding: 0px 0px 5px 0px;
+}
+.container > header h1{
+  font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+  font-size: 35px;
+  line-height: 35px;
+  position: relative;
+  font-weight: 400;
+  color: rgba(26,89,120,0.9);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    padding: 0px 0px 5px 0px;
+}
+
+.container > header{
+  padding: 20px 30px 10px 30px;
+  margin: 0px 20px 10px 20px;
+  position: relative;
+  display: block;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.container > header h1 span{
+  color: #7cbcd6;
+  text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
+}
+
+section {
+  display: block;
+}
+        /*css for the section*/
+
+#container_demo{
+   text-align: left;
+   margin: 0;
+   padding: 0;
+   margin: 0 auto;
+   font-family: "Trebuchet MS","Myriad Pro",Arial,sans-serif;
+}
+
+a.hiddenanchor {
+    display: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+#wrapper {
+    width: 60%;
+    right: 0px;
+    min-height: 560px;
+    margin: 0px auto;
+    width: 500px;
+    position: relative;
+}
+#login {
+    z-index: 22;
+}
+
+#login {
+    position: absolute;
+    top: 0px;
+    width: 88%;
+    padding: 18px 6% 60px 6%;
+    margin: 0 0 35px 0;
+    background: rgb(247, 247, 247);
+    border: 1px solid rgba(147, 184, 189,0.8);
+    box-shadow: 0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+    border-radius: 5px
+  }
+#reg{
+ text-decoration: none;
+}
+
+  form {
+    display: block;
+    margin-top: 0em;
+}
+
+/*#wrapper h1 {
+    background: -webkit-repeating-linear-gradient(-45deg, 
+ rgb(18, 83, 93) , 
+ rgb(18, 83, 93) 20px, 
+ rgb(64, 111, 118) 20px, 
+ rgb(64, 111, 118) 40px, 
+ rgb(18, 83, 93) 40px);
+ -webkit-text-fill-color: transparent;
+ font-size: 48px;
+  color: rgb(6, 106, 117);
+  padding: 2px 0 10px 0;
+  font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+}*/
+/*:-webkit-any(article,aside,nav,section) h1 {
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+}*/
+
+/*#wrapper h1:after {
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: 10px
+    background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%);
+}*/
+#log{
+text-align: center;
+font-size: 48px;
+    color: rgb(6, 106, 117);
+    padding: 2px 0 10px 0;
+    font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
+#wrapper input:not([type="checkbox"]):active, #wrapper input:not([type="checkbox"]):focus {
+    border: 1px solid rgba(91, 90, 90, 0.7);
+    background: rgba(238, 236, 240, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
+}
+#wrapper input:not([type="checkbox"]) {
+    width: 92%;
+    margin-top: 4px;
+    padding: 10px 5px 10px 32px;
+    -webkit-appearance: textfield;
+    box-sizing: content-box;
+    transition: all 0.2s linear;
+    border-radius: 3px;
+    text-align: center;
+}
+input {
+    outline: none;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    cursor: auto;
+
+}
+
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+}
+
+#wrapper p {
+    margin-bottom: 15px;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+p.login.button, p.signin.button {
+    text-align: right;
+    margin: 5px 0;
+}
+
+p.change_link {
+    position: absolute;
+    color: rgb(127, 124, 124);
+    left: 0px;
+    height: 20px;
+    width: 440px;
+    padding: 17px 30px 20px 30px;
+    font-size: 16px;
+    text-align: right;
+    border-top: 1px solid rgb(219, 229, 232);
+    border-radius: 0 0 5px 5px;
+}
+
+
+
+
+
+
+/*end of the form css*/
+
+body {
+  padding-top: 50px;
+}
+
+#home{
+  position: absolute;
+  visibility: visible;
+}
+#sign{
+  position: absolute;
+/*  visibility: hidden;*/
+}
+/*
+ * Global add-ons
+ */
+ #ulab{
+
+ }
+ #img {
+  position: top-fixed;
+  width: 100%;
+  height: 150px;
+ }
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+  border: 0;
+  height: 120px;
+}
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+    padding-top: 100px;
+  }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  /*color: #fff;
+  background-color: #428bca;*/
+}
+
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 20px;
+  padding-top: 100px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#img{
+  position: fixed;
+  width: 100%;
+}

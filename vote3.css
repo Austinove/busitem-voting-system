@@ -1,0 +1,185 @@
+
+/*.post{
+	color: #fff;
+  background-color: blue;
+  text-decoration-color: blue;
+  border: 1px solid rgba(91, 90, 90, 0.7);
+  background: rgba(238, 236, 240, 0.2);
+  box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
+}*/
+/*.active-g{
+	background-color: #428bca;
+	color: #fff;
+}*/
+
+
+#Guild{
+  position: absolute;
+/*  visibility: visible;*/
+background-color: aliceblue;
+}
+#RCC{
+  position: absolute;
+/*  visibility: hidden;*/
+}
+#Secretary{
+  position: absolute;
+/*  visibility: hidden;*/
+}
+#Speaker{
+  position: absolute;
+/*  visibility: hidden;*/
+}
+#Male_Faculty{
+  position: absolute;
+/*  visibility: hidden;*/
+}
+#Female_Faculty{
+  position: absolute;
+/*  visibility: hidden;*/
+}
+#Whole_Chairpersons{
+  position: absolute;
+ /* visibility: hidden;*/
+}
+
+
+
+/*this is my css   hjgkjgkjgkjgjklgjkgkjgkjgjgjgkjgkjgkjgkjgjkgjkgjgj  gjhjkkjhkj*/
+.candidate-name1 {
+position: relative;
+/*border: 2px solid #3F0C1F;*/
+overflow: auto;
+height: 500px;
+width: 100%;
+margin: 0 auto 15px;
+padding: 18px 2% 60px 2%;
+border: 1px solid rgba(147, 184, 189, 0.8);
+background: rgb(247, 247, 247);
+box-shadow: 0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+border-radius: 5px;
+}
+.candidate-name1 span {
+	position: relative;
+	bottom: 0;
+	right: 0;
+	width: 100px;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+#cand input {
+    width: 92%;
+    margin-top: 4px;
+    padding: 10px 5px 10px 32px;
+    -webkit-appearance: textfield;
+    box-sizing: content-box;
+    transition: all 0.2s linear;
+    border-radius: 3px;
+    text-align: center;
+}
+#upload{
+	font-weight: 400px;
+	text-align: center;
+	font-size: 30px;
+    color: rgb(6, 106, 117);
+    padding: 2px 0 10px 0;
+    font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+/*    font-weight: bold;*/
+    text-align: center;
+    padding-bottom: 30px
+}
+.image {
+	height: 100px;
+	width: 50%;
+	background-color: blue;
+	align:left;
+}
+#candidate_name{
+	text-align: left;
+	font-weight: bold;
+}
+#C_name{
+	padding-top: 10px;
+}
+
+
+
+
+/*my css ends jkhkljlj;ljlkjkiohonkjkljlkjlkjlknklmlkmlkjklj khkjkjlkpo jiojkjlkj*/
+#votechoice{
+	position: absolute;
+	bottom: 0;
+	right: -40px;
+	width: 100px;
+	text-align: center;
+	/*font-size: 1.2em;
+	text-transform: uppercase;*/
+	background-color: white;
+	color: #fff;
+	/*opacity: .8;*/
+}
+.candidate-name:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+#accept {
+	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 400;
+	color: rgba(26,89,100,0.9);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+	padding: 0px 0px 5px 0px;
+}
+#vote-guild2 {
+	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  line-height: 35px;
+  position: relative;
+  font-weight: 400;
+  color: rgba(26,89,100,0.9);
+/*  color: green;*/
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    padding: 0px 0px 5px 0px;
+	margin-bottom: 50px;
+}
+#vote-guild1 {
+	  font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+  font-size: 35px;
+  line-height: 35px;
+  position: relative;
+  font-weight: 400;
+  color: rgba(26,89,100,0.9);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    padding: 0px 0px 5px 0px;
+	margin-bottom: 50px;
+}
+#vote-guild {
+	  font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+  font-size: 48px;
+  line-height: 35px;
+  position: relative;
+  font-weight: bold;
+  color: rgba(26,89,120,0.9);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    padding: 0px 0px 5px 0px;
+	margin-bottom: 50px;
+}
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1199px) {
+
+	.col-md-6 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	float: left;
+	width: 50%;
+}
+}
+
